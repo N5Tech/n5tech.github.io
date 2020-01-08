@@ -183,6 +183,11 @@ input, select, textarea {
 		padding: 1em 0 1em 2em;
 	}
 
+	h3.testimonial {
+		font-style: italic;
+		color: #b99701
+	}
+
 /* Container */
 
 	.container {
@@ -2764,7 +2769,7 @@ input, select, textarea {
 
 		#header .logo {
 			/* background: #4eb980; */
-			background: #fff;
+			background: #ffffff;
 			border-radius: 100%;
 			color: #ffffff;
 			cursor: default;
@@ -2781,7 +2786,10 @@ input, select, textarea {
 				left: -0.075em;
 				position: relative;
 			}
+			#header .logo.icon:before {
 
+				position: relative;
+			}
 		#header h1 {
 			font-size: 2.5em;
 			margin: 0;
@@ -2797,7 +2805,7 @@ input, select, textarea {
 
 	#footer {
 		background-attachment: scroll;
-		background-color: #4eb980;
+		background-color: #444f51;
 		background-image: url("images/bottom-3200.svg");
 		background-position: top center;
 		background-repeat: repeat-x;
