@@ -138,7 +138,7 @@ input, select, textarea {
 
 	h1, h2, h3, h4, h5, h6 {
 		color: #5b5b5b;
-		font-weight: 700;
+		font-weight: 400;
 		letter-spacing: 0.125em;
 		line-height: 1.75em;
 		margin-bottom: 1em;
@@ -197,7 +197,8 @@ input, select, textarea {
 	}
 
 		.container.medium {
-			width: 38.25em;
+			/* width: 38.25em; */
+			width: 40em;
 		}
 
 		@media screen and (max-width: 1280px) {
@@ -1984,7 +1985,8 @@ input, select, textarea {
 			border-color: rgba(224, 224, 224, 0.75);
 			border-style: solid;
 			border-top-width: 1px;
-			margin-bottom: 6em;
+			/* margin-bottom: 6em; */
+			margin-bottom: 3em;
 			padding: 4em 0;
 			position: relative;
 		}
@@ -2716,7 +2718,8 @@ input, select, textarea {
 		background-repeat: repeat-x,						repeat,					no-repeat;
 		background-size: 3200px 460px,					auto,					cover;
 		color: rgba(255, 255, 255, 0.8);
-		padding: 10em 0 20em 0;
+		/* padding: 10em 0 20em 0; */
+		padding: 4em 0 14em 0;
 		position: relative;
 		text-align: center;
 	}
@@ -2818,7 +2821,8 @@ input, select, textarea {
 			*/
 
 		margin-top: -260px;
-		padding: calc(460px + 6em) 0 10em 0;
+		/* padding: calc(460px + 6em) 0 10em 0; */
+		padding: calc(460px + 3em) 0 10em 0;
 		position: relative;
 		text-align: center;
 	}
@@ -2826,7 +2830,8 @@ input, select, textarea {
 		#footer:before {
 			background: rgba(224, 224, 224, 0.75);
 			content: '';
-			height: calc(460px + 6em);
+			/* height: calc(460px + 6em); */
+			height: calc(460px + 3em);
 			left: 50%;
 			position: absolute;
 			top: 0;
@@ -2914,7 +2919,8 @@ input, select, textarea {
 /* Main */
 
 	#main {
-		padding: 6em 0 5em 0;
+		/* padding: 6em 0 5em 0; */
+		padding: 3em 0 5em 0;
 		position: relative;
 		z-index: 1;
 	}
@@ -3033,7 +3039,8 @@ input, select, textarea {
 				background-attachment: scroll,							scroll,							scroll;
 				background-image: url("images/top-1600.svg"), url("images/overlay.png"), url("../../images/header.jpg");
 				background-size: 1600px 230px,					auto,							cover;
-				padding: 6em 0 12em 0;
+				/* padding: 6em 0 12em 0; */
+				padding: 2em 0 10em 0;
 			}
 
 				#header:before {
