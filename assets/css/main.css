@@ -190,7 +190,8 @@ input, select, textarea {
 
 	h4.testimonial {
 		font-style: italic;
-		color: #b99701
+		color: #b99701;
+		text-transform: none;
 	}	
 
 /* Container */
